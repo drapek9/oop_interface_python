@@ -12,6 +12,7 @@ class Vehicle(ABC): # "OOP Interface"
     def sound(self):
         return
 
+
 class Car(Vehicle):
     def __init__(self) -> None:
         super().__init__()
